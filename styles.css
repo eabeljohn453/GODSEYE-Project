@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/premium-vector/circuit-technology-background-with-hi-tech-digital-data-connection-system-computer-electronic-desing_29971-731.jpg'); /* Set the background image */
+    background-size: cover;
+    background-position: center; 
+    margin: 0;
+    padding: 0;
+    color: white; 
+}
+.logo {
+    position: absolute;
+    left: 20px;          
+    top: 15px;           
+}
+
+.logo img {
+    width: 50px;        
+    height: auto;
+    display: block;    
+}
+header {
+    background-color: rgba(44, 62, 80, 0.8); 
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.navigation ul {
+    list-style-type: none;    
+    padding: 0;              
+    display: flex;           
+    flex-direction: column; 
+    align-items: center;    
+}
+
+.navigation ul li {
+    margin: 15px 0;         
+}
+
+.navigation ul li a {
+    background-color: #3498db;  
+    color: white;                
+    padding: 15px 30px;        
+    text-decoration: none;      
+    border-radius: 5px;      
+    width: 250px;                
+    height: 60px;               
+    display: flex;              
+    justify-content: center;   
+    align-items: center;       
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.navigation ul li a:hover {
+    background-color: #2980b9;  
+    transform: translateY(-2px);
+}
+
+
+.live-feed .video-container {
+    height: 300px;
+    background-color: rgba(189, 195, 199, 0.8); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+.detection-log ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.detection-log li {
+    background-color: rgba(61, 5, 193, 0.8);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 4px hsla(60, 2%, 92%, 0.823);
+}
+
+
+.alerts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.alerts li {
+    background-color: rgba(236, 233, 233, 0.929);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 3px;
+    color: red;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
